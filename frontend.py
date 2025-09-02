@@ -3,6 +3,13 @@ from generate_video import generate_video_from_prompt
 import os
 import time
 
+# Access the API key securely from Streamlit secrets
+GEMINI_KEY = st.secrets["GEMINI_KEY"]
+
+# Inject the key into environment variables if your generate_video depends on it
+os.environ["GEMINI_KEY"] = GEMINI_KEY
+
+
 # Set page configuration
 st.set_page_config(
     page_title="Gemini Video Generator",
