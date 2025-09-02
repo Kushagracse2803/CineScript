@@ -1,5 +1,5 @@
-requests          # To make HTTP requests to Gemini API
-pandas            # For any data manipulation needs (optional)
-flask             # If you want to create a web app or API frontend
-python-dotenv     # To handle environment variables loading (.env files) with getenv
-google genai
+requests          # To make HTTP requests
+pandas            # For data manipulation (optional)
+flask             # For creating a web app or API frontend
+python-dotenv     # To handle environment variables (.env files)
+google-genai      # Official Google Generative AI Python SDK
